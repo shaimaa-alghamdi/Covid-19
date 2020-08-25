@@ -1,1 +1,1 @@
-# WhatsAppStickers
+# covid-19
