@@ -1,8 +1,6 @@
 # StayHome / covid-19
 
 
-# Login & Signup
-
 ## Example
 ![mov](https://user-images.githubusercontent.com/39530404/92324082-01b1df80-f047-11ea-8378-0f7cf5a7d109.gif)
 
