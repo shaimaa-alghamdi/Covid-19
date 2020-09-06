@@ -12,9 +12,9 @@
 		36887F1C242A914400C5295C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36887F1B242A914400C5295C /* SceneDelegate.swift */; };
 		36887F1E242A914400C5295C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36887F1D242A914400C5295C /* ViewController.swift */; };
 		36887F21242A914400C5295C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36887F1F242A914400C5295C /* Main.storyboard */; };
-		36887F23242A914400C5295C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36887F22242A914400C5295C /* Assets.xcassets */; };
 		36887F26242A914400C5295C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36887F24242A914400C5295C /* LaunchScreen.storyboard */; };
 		36887F2E242A95FF00C5295C /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36887F2D242A95FF00C5295C /* Structs.swift */; };
+		369C470D2504F11B001D8FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369C470C2504F11B001D8FA5 /* Assets.xcassets */; };
 		36C726A02432643900599BAA /* dataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C7269F2432643900599BAA /* dataView.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,10 +25,10 @@
 		36887F1B242A914400C5295C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36887F1D242A914400C5295C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36887F20242A914400C5295C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36887F22242A914400C5295C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36887F25242A914400C5295C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36887F27242A914400C5295C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36887F2D242A95FF00C5295C /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		369C470C2504F11B001D8FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36C7269F2432643900599BAA /* dataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +69,7 @@
 				36C7269F2432643900599BAA /* dataView.swift */,
 				36887F2D242A95FF00C5295C /* Structs.swift */,
 				36887F1F242A914400C5295C /* Main.storyboard */,
-				36887F22242A914400C5295C /* Assets.xcassets */,
+				369C470C2504F11B001D8FA5 /* Assets.xcassets */,
 				36887F24242A914400C5295C /* LaunchScreen.storyboard */,
 				36887F27242A914400C5295C /* Info.plist */,
 			);
@@ -135,8 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36887F26242A914400C5295C /* LaunchScreen.storyboard in Resources */,
-				36887F23242A914400C5295C /* Assets.xcassets in Resources */,
 				362BAF1224F59C6F0068E8F6 /* README.md in Resources */,
+				369C470D2504F11B001D8FA5 /* Assets.xcassets in Resources */,
 				36887F21242A914400C5295C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +295,6 @@
 		36887F2B242A914400C5295C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StayHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +311,6 @@
 		36887F2C242A914400C5295C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StayHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
